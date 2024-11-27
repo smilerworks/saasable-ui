@@ -8,7 +8,6 @@ const cspHeader = `
     object-src 'self';
     base-uri 'self';
     form-action 'self';
-    frame-ancestors 'self';
     connect-src 'self' https://www.googletagmanager.com https://raw.githubusercontent.com;
 `;
 
