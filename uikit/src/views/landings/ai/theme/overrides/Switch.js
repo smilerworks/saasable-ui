@@ -48,9 +48,6 @@ export default function Switch(theme) {
             backgroundColor: paletteColor.light,
             ...((color === 'primary' || color === 'secondary') && {
               backgroundColor: paletteColor.lighter
-            }),
-            ...theme.applyStyles('dark', {
-              backgroundColor: paletteColor.darker
             })
           }
         }
